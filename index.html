@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<Import pj01.css></Import>
+<script src="script.js"></script>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Chat Application</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="chat-container">
+    <div id="messages-container">
+      <!-- Messages will be displayed here -->
+    </div>
+    <input type="text" id="message-input" placeholder="Type a message" />
+    <button id="send-btn">Send</button>
+  </div>
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
+
+  <script src="app.js"></script>
+</body>
+</html>
